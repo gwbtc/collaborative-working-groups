@@ -1,0 +1,238 @@
+Technical Working Groups Proposal                   ~nisfeb
+Version 1.0                                         Groundwire Syndicate
+September 3, 2025
+
+Status of This Document
+
+   This document proposes the establishment of multi-organizational
+   working groups for collaborative open source development. This
+   document is intended for review by all participating organizations.
+
+Abstract
+
+   This document defines a framework for establishing cross-organizational
+   technical working groups to advance shared open source initiatives.
+   It details working group formation, chair selection, meeting structure,
+   membership mechanisms, and shared repository structure.
+
+Table of Contents
+
+   1. Introduction
+   2. Working Group Formation
+   3. Working Group Chair Selection
+   4. Meeting Structure
+   5. Membership Mechanism
+   6. Deliverables and Reporting
+   7. Shared GitHub Repository
+   8. Implementation Timeline
+   9. Resource Requirements
+
+1. Introduction
+
+   Open source development across multiple organizations requires
+   structured collaboration to ensure efficient progress toward shared
+   goals. This document proposes a formal working group model to
+   facilitate this collaboration.
+
+2. Working Group Formation
+
+   2.1. Initial Working Groups
+
+      The following four working groups will be established:
+
+      (1) Bitcoin Identity Ownership Working Group
+      (2) Arbitrary Sponsorship Working Group
+      (3) Eyre Security Working Group
+
+   2.2. Working Group Charter
+
+      Each working group will operate under a specific charter that defines:
+      
+      - Scope of work
+      - Expected deliverables
+      - Success metrics
+      - Timeline for completion
+
+   2.3. Duration
+
+      Initial working group duration will be 6 months with an option
+      to renew based on progress evaluation.
+
+3. Working Group Chair Selection
+
+   3.1. Chair Position
+
+      Each working group will have one designated chair.
+
+   3.2. Selection Process
+
+      (1) Partner organizations may nominate candidates
+      (2) Candidates submit qualification statements (max 1 page)
+      (3) One vote per partner organization
+      (4) Core Guild breaks ties
+
+   3.3. Chair Responsibilities
+
+      - Schedule and facilitate regular meetings
+      - Track deliverables and report progress
+      - Serve as primary point of contact
+      - Ensure meeting minutes are recorded and distributed
+
+   3.4. Term Length
+
+      Chair terms are 6 months, renewable once (maximum 12 months total).
+
+4. Meeting Structure
+
+   4.1. Standard Cadence
+
+      Bi-weekly meetings of 60 minutes duration.
+
+   4.2. Meeting Template
+
+      WORKING GROUP: [Name]
+      DATE: [Date]
+      ATTENDEES: [Names/Organizations]
+      
+      1. Action Item Review (10 min)
+         - [Previous items with status updates]
+      
+      2. Technical Discussion (35 min)
+         - [Topic 1]
+         - [Topic 2]
+      
+      3. Decisions Made (5 min)
+         - [Decision 1]
+         - [Decision 2]
+      
+      4. New Action Items (10 min)
+         - [Item] - [Owner] - [Due Date]
+      
+      5. Next Meeting: [Date/Time]
+
+   4.3. Documentation
+
+      All meetings shall be documented in the shared GitHub repository
+      with version control.
+
+5. Membership Mechanism
+
+   5.1. Initial Composition
+
+      Working groups will start with 3-5 members.
+
+   5.2. Membership Requirements
+
+      - Technical expertise relevant to working group focus
+      - Minimum commitment of 4 hours per week
+      - Formal support from sponsoring organization
+
+   5.3. Addition Process
+
+      (1) Nomination (self or organization)
+      (2) Application stating qualifications and contribution goals
+      (3) Simple majority vote of existing members required for approval
+      (4) Maximum of 2 representatives per organization per working group
+
+   5.4. Removal Process
+
+      Members may be removed for:
+      - Missing 3 consecutive meetings without notice
+      - Failure to complete assigned tasks for 30+ days
+      - Chair recommendation and majority vote required for removal
+
+6. Deliverables and Reporting
+
+   6.1. Required Documentation
+
+      Working groups shall maintain:
+      - Public repository of meeting minutes
+      - Quarterly progress reports
+      - Shared code repository with contribution guidelines
+
+   6.2. Final Deliverables
+
+      Each working group charter will specify expected deliverables.
+
+7. Shared GitHub Repository
+
+   7.1. Repository Creation
+
+      A central GitHub repository named "collaborative-working-groups"
+      will be established to serve as the primary collaboration platform.
+
+   7.2. Repository Structure
+
+      The repository will be organized as follows:
+      
+      /
+      ├── working-groups/
+      │   ├── bitcoin-identity-ownership/
+      │   │   ├── charter.md
+      │   │   ├── meetings/
+      │   │   ├── proposals/
+      │   │   └── work-products/
+      │   ├── arbitrary-sponsorship/
+      │   └── eyre-security/
+      ├── governance/
+      │   ├── working-group-template.md
+      │   ├── meeting-template.md
+      │   └── member-registry.md
+      ├── shared-resources/
+      └── README.md
+
+   7.3. Access Control
+
+      - Public read access for transparency
+      - Write/Admin access limited to working group members
+
+   7.4. Content Requirements
+
+      The repository will contain:
+      
+      - Working group charters
+      - Meeting minutes in markdown format
+      - Technical proposals
+      - Decision records
+      - Work products and deliverables
+      - Member registry
+      - Governance documents
+
+   7.5. Issue Tracking
+
+      GitHub Issues will be used to track:
+      
+      - Action items from meetings
+      - Feature proposals
+      - Bug reports
+      - Agenda items for upcoming meetings
+
+   7.6. Pull Request Process
+
+      All substantive changes to working group documentation and
+      deliverables will utilize pull requests with required review
+      from at least one other working group member.
+
+8. Implementation Timeline
+
+   Week 1: Create GitHub repository and initial structure
+   Week 1-2: Finalize working group charters
+   Week 1-2: Chair nominations and selection
+   Week 3: Initial working group meetings
+   Week 26: First term evaluation and renewal consideration
+
+9. Resource Requirements
+
+   9.1. Technical Infrastructure
+
+      - GitHub Organization account with appropriate permissions
+      - Communication platform
+      - Meeting scheduling and recording tools
+
+   9.2. Organizational Support
+
+      Each participating organization commits to supporting their
+      representatives with adequate time allocation and resources
+      to fulfill working group responsibilities.
+
+                                    --- END OF DOCUMENT ---
