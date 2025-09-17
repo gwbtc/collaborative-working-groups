@@ -18,16 +18,7 @@ Open source development across multiple organizations in the Urbit ecosystem req
 
 ## Specification
 
-### Working Group Formation
-
-#### Initial Working Groups
-
-Three working groups SHALL be established:
-1. Bitcoin Identity Ownership Working Group
-2. Arbitrary Sponsorship Working Group  
-3. Eyre Security Working Group
-
-#### Working Group Charter
+### Working Group Charter
 
 Each working group MUST operate under a charter that defines:
 - Scope of work
@@ -38,8 +29,6 @@ Each working group MUST operate under a charter that defines:
 Initial working group duration SHALL be 6 months with renewal option based on progress evaluation.
 
 ### Working Group Governance
-
-#### Chair Selection
 
 Each working group MUST have one designated chair selected through the following process:
 
@@ -58,7 +47,7 @@ Chair terms SHALL be 6 months, renewable once (12 months maximum).
 
 ### Meeting Structure
 
-Working groups SHALL conduct bi-weekly 60-minute meetings following this template:
+Working groups SHALL conduct bi-weekly 60-minute meetings. Such meetings MAY follow this template:
 
 ```
 WORKING GROUP: [Name]
@@ -82,13 +71,13 @@ ATTENDEES: [Names/Organizations]
 5. Next Meeting: [Date/Time]
 ```
 
-All meetings MUST be documented in the shared GitHub repository.
+All meetings MUST be documented in the shared Git repository.
 
 ### Membership Mechanism
 
 #### Composition
 
-Working groups SHALL start with 3-5 members.
+Working groups SHALL start with three or more members.
 
 #### Requirements
 
@@ -114,18 +103,18 @@ Removal requires chair recommendation and majority vote.
 
 ### Shared Repository Structure
 
-A central GitHub repository named "collaborative-working-groups" SHALL be established with the following structure:
+A central Git repository named "collaborative-working-groups" SHALL be established with the following structure:
 
 ```
 /
 ├── working-groups/
-│   ├── bitcoin-identity-ownership/
+│   ├── <working-group-title>
 │   │   ├── charter.md
 │   │   ├── meetings/
 │   │   ├── proposals/
 │   │   └── work-products/
-│   ├── arbitrary-sponsorship/
-│   └── eyre-security/
+│   ├── <working-group-title>
+│   └── <working-group-title>
 ├── governance/
 │   ├── working-group-template.md
 │   ├── meeting-template.md
@@ -150,14 +139,6 @@ The repository MUST contain:
 - Member registry
 - Governance documents
 
-#### Issue Tracking
-
-GitHub Issues SHALL be used to track:
-- Action items from meetings
-- Feature proposals
-- Bug reports
-- Agenda items for upcoming meetings
-
 #### Pull Request Process
 
 All substantive changes to working group documentation and deliverables MUST utilize pull requests with required review from at least one other working group member.
@@ -168,23 +149,14 @@ This framework draws from successful models in other open source communities (IE
 
 The three initial working groups address critical areas identified by the community: Bitcoin integration for identity, flexible sponsorship mechanisms, and Eyre security improvements. These topics require coordinated effort across multiple organizations and will benefit from structured collaboration.
 
-## Implementation Timeline
-
-- Week 1: Create GitHub repository and initial structure
-- Week 1-2: Finalize working group charters
-- Week 1-2: Chair nominations and selection
-- Week 3: Initial working group meetings
-- Week 26: First term evaluation and renewal consideration
-
 ## Resource Requirements
 
 ### Technical Infrastructure
-- GitHub Organization account with appropriate permissions
-- Communication platform
-- Meeting scheduling and recording tools
+- Git repository with appropriate permissions granted to members, elders, and editor of the Core Guild.
+- Communication platform, meeting scheduling and recording tool.
 
 ### Organizational Support
-Each participating organization commits to supporting their representatives with adequate time allocation and resources to fulfill working group responsibilities.
+Each sponsoring organization commits to supporting their representatives with adequate time allocation and resources to fulfill working group responsibilities.
 
 ## Copyright
 
