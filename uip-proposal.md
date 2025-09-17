@@ -94,7 +94,7 @@ Working groups SHALL start with 3-5 members.
 
 Members MUST meet the following requirements:
 - Technical expertise relevant to working group focus
-- Minimum commitment of 4 hours per week
+- Minimum commitment of 1 hour per week
 - Formal support from sponsoring organization
 
 #### Addition Process
