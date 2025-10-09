@@ -37,11 +37,12 @@ Members may be removed for:
 
 ### Membership Change Log
 
-[Date]     -     [Name] - [Added/Removed]  -  [Working Group]   -   [Reason]
-2025-10-08        Gary         Added         Userspace Security     WG Founded
-2025-10-08        Yun          Added         Userspace Security     WG Founded
-2025-10-08        Robin        Added         Userspace Security     WG Founded
-2025-10-08        Kenny        Added         Userspace Security     WG Founded
-2025-10-08        Kirill       Added         Userspace Security     WG Founded
-2025-10-08        Amadeo       Added         Userspace Security     WG Founded
-2025-10-08        Jackson      Added         Userspace Security     WG Founded
+|    Date    |   Name  | Added/Removed |    Working Group   |   Reason   |
+|------------|---------|---------------|--------------------|------------|
+| 2025-10-08 | Gary    |     Added     | Userspace Security | WG Founded |
+| 2025-10-08 | Yun     |     Added     | Userspace Security | WG Founded |
+| 2025-10-08 | Robin   |     Added     | Userspace Security | WG Founded |
+| 2025-10-08 | Kenny   |     Added     | Userspace Security | WG Founded |
+| 2025-10-08 | Kirill  |     Added     | Userspace Security | WG Founded |
+| 2025-10-08 | Amadeo  |     Added     | Userspace Security | WG Founded |
+| 2025-10-08 | Jackson |     Added     | Userspace Security | WG Founded |
