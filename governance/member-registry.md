@@ -1,40 +1,23 @@
 # Working Group Member Registry
 
 This document maintains the official roster of all working group
-participants. Last updated: [Date].
+participants. Last updated: 2025-10-08.
 
-## Bitcoin Identity Ownership Working Group
-
-### Chair
-[TBD]
-
-### Members
-[TBD]
-
-### Observers
-[TBD]
-
-## Arbitrary Sponsorship Working Group
+## Userspace Security Working Group
 
 ### Chair
-[TBD]
+Robin
 
 ### Members
-[TBD]
+- Gary (Groundwire)
+- Yun (Groundwire)
+- Kenny (Urbit Foundation)
+- Kirill (Urbit Foundation)
 
-### Observers
-[TBD]
+### Honorary:
 
-## Eyre Security Working Group
-
-### Chair
-[TBD]
-
-### Members
-[TBD]
-
-### Observers
-[TBD]
+- Amadeo (Native Planet)
+- Jackson (Groundwire)
 
 ## Membership Changes
 
@@ -54,4 +37,11 @@ Members may be removed for:
 
 ### Membership Change Log
 
-[Date] - [Name] - [Added/Removed] - [Working Group] - [Reason]
+[Date]     -     [Name] - [Added/Removed]  -  [Working Group]   -   [Reason]
+2025-10-08        Gary         Added         Userspace Security     WG Founded
+2025-10-08        Yun          Added         Userspace Security     WG Founded
+2025-10-08        Robin        Added         Userspace Security     WG Founded
+2025-10-08        Kenny        Added         Userspace Security     WG Founded
+2025-10-08        Kirill       Added         Userspace Security     WG Founded
+2025-10-08        Amadeo       Added         Userspace Security     WG Founded
+2025-10-08        Jackson      Added         Userspace Security     WG Founded

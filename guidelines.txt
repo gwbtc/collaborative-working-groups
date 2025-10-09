@@ -4,9 +4,9 @@ September 3, 2025
 
 Status of This Document
 
-   This document proposes the establishment of multi-organizational
-   working groups for collaborative open source development. This
-   document is intended for review by all participating organizations.
+   This document establishes multi-organizational working groups for
+   collaborative open source development. This document is intended
+   for review by all participating organizations.
 
 Abstract
 
@@ -42,7 +42,7 @@ Table of Contents
 
       (1) Bitcoin Identity Ownership Working Group
       (2) Arbitrary Sponsorship Working Group
-      (3) Eyre Security Working Group
+      (3) Userspace Security Working Group
 
    2.2. Working Group Charter
 
@@ -67,9 +67,8 @@ Table of Contents
    3.2. Selection Process
 
       (1) Partner organizations may nominate candidates
-      (2) Candidates submit qualification statements (max 1 page)
+      (2) Candidates may submit qualification statements (max 1 page)
       (3) One vote per partner organization
-      (4) Core Guild breaks ties
 
    3.3. Chair Responsibilities
 
@@ -112,19 +111,18 @@ Table of Contents
 
    4.3. Documentation
 
-      All meetings shall be documented in the shared GitHub repository
-      with version control.
+      All meetings shall be documented in this shared git repository.
 
 5. Membership Mechanism
 
    5.1. Initial Composition
 
-      Working groups will start with 3-5 members.
+      Working groups will start with 3 or more members.
 
    5.2. Membership Requirements
 
       - Technical expertise relevant to working group focus
-      - Minimum commitment of 4 hours per week
+      - Minimum commitment of 1 hours per week
       - Formal support from sponsoring organization
 
    5.3. Addition Process
@@ -164,16 +162,16 @@ Table of Contents
    7.2. Repository Structure
 
       The repository will be organized as follows:
-      
+
       /
       ├── working-groups/
       │   ├── bitcoin-identity-ownership/
       │   │   ├── charter.md
       │   │   ├── meetings/
       │   │   ├── proposals/
-      │   │   └── work-products/
+      │   │   └── work-product/
       │   ├── arbitrary-sponsorship/
-      │   └── eyre-security/
+      │   └── userspace-security/
       ├── governance/
       │   ├── working-group-template.md
       │   ├── meeting-template.md
@@ -189,7 +187,7 @@ Table of Contents
    7.4. Content Requirements
 
       The repository will contain:
-      
+
       - Working group charters
       - Meeting minutes in markdown format
       - Technical proposals
@@ -198,38 +196,21 @@ Table of Contents
       - Member registry
       - Governance documents
 
-   7.5. Issue Tracking
-
-      GitHub Issues will be used to track:
-      
-      - Action items from meetings
-      - Feature proposals
-      - Bug reports
-      - Agenda items for upcoming meetings
-
-   7.6. Pull Request Process
+   7.5. Pull Request Process
 
       All substantive changes to working group documentation and
       deliverables will utilize pull requests with required review
       from at least one other working group member.
 
-8. Implementation Timeline
+8. Resource Requirements
 
-   Week 1: Create GitHub repository and initial structure
-   Week 1-2: Finalize working group charters
-   Week 1-2: Chair nominations and selection
-   Week 3: Initial working group meetings
-   Week 26: First term evaluation and renewal consideration
-
-9. Resource Requirements
-
-   9.1. Technical Infrastructure
+   8.1. Technical Infrastructure
 
       - GitHub Organization account with appropriate permissions
       - Communication platform
       - Meeting scheduling and recording tools
 
-   9.2. Organizational Support
+   8.2. Organizational Support
 
       Each participating organization commits to supporting their
       representatives with adequate time allocation and resources
