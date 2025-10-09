@@ -11,9 +11,7 @@ technical working groups established to advance shared Urbit initiatives.
 
 ## Active Working Groups
 
-1. Bitcoin Identity Ownership Working Group
-2. Arbitrary Sponsorship Working Group
-3. Eyre Security Working Group
+3. Userspace Security Working Group
 
 ## Getting Involved
 
