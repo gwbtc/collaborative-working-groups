@@ -11,7 +11,7 @@ technical working groups established to advance shared Urbit initiatives.
 
 ## Active Working Groups
 
-3. Userspace Security Working Group
+1. Userspace Security Working Group
 
 ## Getting Involved
 
